@@ -1,0 +1,60 @@
+.FileGrid {
+    display: flex;
+    flex-direction: column;
+    
+    &.list {
+        .Tile {
+            margin: 5px 0;
+
+            &:first-of-type {
+                margin-top: 10px;
+            }
+        } 
+    }
+
+    &.grid {
+        .Tile {
+            margin: 20px;
+        } 
+    }
+
+    
+
+    .folders, .files {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tile-enter {
+        opacity: 0.01;
+        transform: translate(0, -10px);
+    }
+
+    .tile-enter-active {
+        opacity: 1;
+        transform: translate(0, 0);
+        transition: all 300ms ease-in;
+    }
+
+    .tile-appear {
+        opacity: 0.01;
+        transform: translate(0, -10px);
+    }
+
+    .tile-appear-active {
+        opacity: 1;
+        transform: translate(0, 0);
+        transition: all 300ms ease-in;
+    }
+
+    .tile-exit {
+        opacity: 1;
+        transform: translate(0, 0);
+        transition: all 200ms ease-in;
+    }
+
+    .tile-exit-active {
+        opacity: 0.01;
+        transform: translate(0, -10px);
+    }
+}

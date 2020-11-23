@@ -1,0 +1,25 @@
+.LogoutBtn {
+
+    button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        cursor: pointer;
+        border-radius: 5px;
+        
+        img {
+            margin: 0;
+            padding: 0;
+        }
+
+        &:focus-visible  {
+            box-shadow: 0 0 0 2px rgba(67,57,242,0.40);
+        }
+    }
+
+    
+
+
+    
+}

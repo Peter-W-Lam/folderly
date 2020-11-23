@@ -1,0 +1,72 @@
+.FileGrid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.FileGrid.list .Tile {
+  margin: 5px 0;
+}
+
+.FileGrid.list .Tile:first-of-type {
+  margin-top: 10px;
+}
+
+.FileGrid.grid .Tile {
+  margin: 20px;
+}
+
+.FileGrid .folders, .FileGrid .files {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.FileGrid .tile-enter {
+  opacity: 0.01;
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+.FileGrid .tile-enter-active {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.FileGrid .tile-appear {
+  opacity: 0.01;
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+.FileGrid .tile-appear-active {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.FileGrid .tile-exit {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+
+.FileGrid .tile-exit-active {
+  opacity: 0.01;
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+/*# sourceMappingURL=FileGrid.css.map */

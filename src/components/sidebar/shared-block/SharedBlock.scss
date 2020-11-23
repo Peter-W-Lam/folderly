@@ -1,0 +1,19 @@
+.SharedBlock {
+    margin-left: 40px;
+
+    .Title {
+        margin-bottom: 0;
+    }
+    .profiles {
+        display: flex;
+        align-items: center;
+        margin-left: -4px;
+        margin-top: 0;
+        .Profile {
+            margin: 4px;
+        }
+
+        
+    }
+}
+

@@ -1,0 +1,152 @@
+$light-gray: rgb(231, 231, 231);
+
+.UploadModalBody {
+    text-align: center;
+
+    h3 {
+        font-size: 23px;
+    }
+    .upload-box {
+        border: 1px dashed rgb(185, 185, 185);
+        border-radius: 5px;
+        padding: 40px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: rgb(185, 185, 185);
+    }
+}
+
+.ViewModalBody {
+    text-align: center;
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .time {
+        margin-top: 3px;
+        margin-bottom: 0;
+        color: gray;
+        font-size: 18px;
+    }
+
+    .status {
+        margin: 0 0 20px 0;
+        color: gray;
+        font-size: 18px;
+    }
+
+    .shared-list {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 350px;
+        overflow-y: auto;
+        h3 {
+            font-weight: normal;
+            font-size: 18px;
+            color: gray;
+            padding: 5px 10px;
+            background-color: rgb(231, 231, 231);
+            border-radius: 5px;
+            width: fit-content;
+            margin: 10px 0;
+            // text-align: center;
+        }
+
+        .user-list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 15px;
+            border-top: 1px solid lightgray;
+            width: 100%;
+            box-sizing: border-box;
+
+            &:first-of-type {
+                border-top: none;
+            }
+            
+            .user {
+                display: flex;
+                align-items: center;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            p {
+                margin-left: 20px;
+                font-size: 1.1em;
+                color: gray;
+            }
+
+            button {
+                height: 40px;
+                width: 40px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                color: indianred;
+                font-size: 20px;
+                cursor: pointer;
+                border-radius: 5px;
+
+                &:hover {
+                    background-color: $light-gray;
+                }
+
+                &:focus-visible {
+                    border: 2px solid indianred;
+                }
+            }
+        }
+    }
+    
+}
+
+.EditModalBody {
+    form {
+
+        label {
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            color: gray;
+            
+        }
+
+        input {
+            border: none;
+            margin-top: 4px;
+            font-size: 18px;
+            padding: 9px 10px;
+            border-radius: 4px;
+            color: gray;
+            background-color: $light-gray;
+            outline: none;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        .submit-btn {
+            width: 144px;
+            height: 41px;
+            border-radius: 8px;
+            background-color: #4339f2;
+            color: rgba(255, 255, 255, 0.8);
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 15px 0 5px 0;
+        }
+    }
+}

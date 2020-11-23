@@ -1,0 +1,17 @@
+.SeeMore {
+    background-color: #4339f2;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    cursor: pointer;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}

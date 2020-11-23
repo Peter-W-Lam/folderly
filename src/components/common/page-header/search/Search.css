@@ -1,0 +1,19 @@
+.Search {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.Search input {
+  font-size: 17px;
+  outline: none;
+  font-weight: 200;
+  padding: 5px 10px 5px 40px;
+  width: 100%;
+  opacity: 0.4;
+  border: none;
+  background-image: url("../../../../assets/misc/Search.svg");
+  background-repeat: no-repeat;
+  background-position-y: 6px;
+  background-position-x: 5px;
+}
+/*# sourceMappingURL=Search.css.map */

@@ -1,0 +1,18 @@
+.PageHeader {
+    margin-top: 35px;
+    margin-left: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .right {
+        display: flex;
+        margin-right: 60px;
+        align-items: center;
+        .UserProfile {
+            margin-left: 20px;
+        }
+    }
+
+}

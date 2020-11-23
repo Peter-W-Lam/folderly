@@ -1,0 +1,134 @@
+.Sidebar {
+    width: 290px;
+    height: 100vh;
+    overflow: auto;
+    position: fixed; 
+    
+    .contents {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        z-index: 6;
+        background-color: white;
+    }
+
+    .menu-icon, .close-icon {
+        display: none;
+    }
+
+    .Logo {
+        margin-top: 32px;
+    }
+
+    .Divider {
+        margin-top: 32px;
+    }
+    
+    .links {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .LogoutBtn {
+        margin: 40px;
+    }
+
+    .LinkBlock {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Sidebar {
+
+        .menu-icon {
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            padding: 0; 
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: white;
+            border: none;
+            outline: none;
+            top: 15px;
+            left: 20px;
+            transition: 0.25s ease-in-out all;
+            border-radius: 5px;
+
+            img {
+                padding: 0;
+                margin: 0;
+                width: 25px;
+            }
+
+            &:focus-visible  {
+                box-shadow: 0 0 0 2px rgba(67,57,242,0.40);
+            }
+        }
+
+        .close-icon {
+            display: block;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            z-index: 5;
+            padding: 0; 
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: white;
+            border: none;
+            outline: none;
+            top: 15px;
+            right: 5px;
+            border-radius: 5px;
+
+            &:focus-visible  {
+                box-shadow: 0 0 0 2px rgba(67,57,242,0.40);
+            }
+
+            img {
+                padding: 0;
+                margin: 0;
+                width: 15px;
+            }
+        }
+
+        .contents {
+            transform: translateX(-100%);
+            transition: 0.25s ease-in-out all;
+        }
+
+        &.open .contents {
+            transform: translateX(0%);
+        }
+
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .Sidebar {
+        .Logo {
+            margin-top: 16px;
+        }
+    
+        .Divider {
+            margin-top: 16px;
+        }
+
+        .LinkBlock {
+            margin-top: 15px;
+        }
+    }
+}
+

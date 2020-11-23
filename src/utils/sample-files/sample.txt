@@ -1,0 +1,6 @@
+=== Folderly Source Sample ===
+This is a test file downloaded from the demo project 
+"Folderly". In production, downloading this file would 
+trigger the download of the file selected. As this application
+is only loaded with dummy data, this file is all that will 
+be downloaded when trying to download a file. 

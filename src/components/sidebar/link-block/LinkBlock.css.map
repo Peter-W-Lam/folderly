@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,IAAI;CAId;;AAPD,AAII,UAJM,CAIN,UAAU,AAAA,SAAS,CAAC;EAChB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "LinkBlock.scss"
+    ],
+    "names": [],
+    "file": "LinkBlock.css"
+}

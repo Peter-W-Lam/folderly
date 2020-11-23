@@ -1,0 +1,19 @@
+.LogoutBtn button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.LogoutBtn button img {
+  margin: 0;
+  padding: 0;
+}
+
+.LogoutBtn button:focus-visible {
+  -webkit-box-shadow: 0 0 0 2px rgba(67, 57, 242, 0.4);
+          box-shadow: 0 0 0 2px rgba(67, 57, 242, 0.4);
+}
+/*# sourceMappingURL=LogoutBtn.css.map */

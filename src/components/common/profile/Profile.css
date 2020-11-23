@@ -1,0 +1,13 @@
+.Profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.Profile img {
+  width: 40px;
+}
+/*# sourceMappingURL=Profile.css.map */

@@ -1,0 +1,167 @@
+[
+    {
+        "filetype": 3, 
+        "title": "Day at the beach",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/women/60.jpg", 
+                "name": "Gwenn Berkman"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/36.jpg", 
+                "name": "Magdalene Johns"
+            }
+        ]
+    },
+    {
+        "filetype": 4, 
+        "title": "accounts_list.pdf",
+        "time": "2020-11-08T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/women/15.jpg", 
+                "name": "Jewell Craycraft"
+            }
+        ]
+    },
+    {
+        "filetype": 9, 
+        "title": "Accounts Information",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/women/3.jpg", 
+                "name": "Edie Cumming"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/men/15.jpg", 
+                "name": "Carmon Chavez"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/15.jpg", 
+                "name": "Jewell Craycraft"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/men/55.jpg", 
+                "name": "Clint Snelson"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/36.jpg", 
+                "name": "Magdalene Johns"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/60.jpg", 
+                "name": "Gwenn Berkman"
+            }
+        ]
+    },
+    {
+        "filetype": 8, 
+        "title": "Novel Idea.docx",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+        ]
+    },
+    {
+        "filetype": 8, 
+        "title": "Designed Space",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/men/62.jpg", 
+                "name": "Travis Ephraim"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/69.jpg", 
+                "name": "Karol Romain"
+            }
+        ]
+    },
+    {
+        "filetype": 5, 
+        "title": "presentation for sigma",
+        "time": "2020-10-30T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/men/82.jpg", 
+                "name": "Teodoro Lance"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/3.jpg", 
+                "name": "Edie Cumming"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/men/15.jpg", 
+                "name": "Carmon Chavez"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/15.jpg", 
+                "name": "Jewell Craycraft"
+            }
+        ]
+    },
+    {
+        "filetype": 5, 
+        "title": "Screenshot 2019-01-13.png",
+        "time": "2020-11-03T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/women/60.jpg", 
+                "name": "Gwenn Berkman"
+            },
+            
+            {
+                "img": "https://randomuser.me/api/portraits/men/82.jpg", 
+                "name": "Teodoro Lance"
+            },
+            
+            {
+                "img": "https://randomuser.me/api/portraits/women/15.jpg", 
+                "name": "Jewell Craycraft"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/69.jpg", 
+                "name": "Karol Romain"
+            }
+        ]
+    },
+    {
+        "filetype": 1, 
+        "title": "Accounts",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/men/55.jpg", 
+                "name": "Clint Snelson"
+            }
+        ]
+    },
+    {
+        "filetype": 7, 
+        "title": "nautus.csv",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+        ]
+    },
+    {
+        "filetype": 6, 
+        "title": "Design Spec",
+        "time": "2020-11-10T19:56:40+00:00", 
+        "sharedWith": [
+            {
+                "img": "https://randomuser.me/api/portraits/men/55.jpg", 
+                "name": "Clint Snelson"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/36.jpg", 
+                "name": "Magdalene Johns"
+            },
+            {
+                "img": "https://randomuser.me/api/portraits/women/60.jpg", 
+                "name": "Gwenn Berkman"
+            }
+        ]
+    }
+
+]

@@ -1,0 +1,14 @@
+.Logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Logo img {
+  margin-left: 20px;
+}
+
+.Logo h3 {
+  margin-left: 33px;
+}
+/*# sourceMappingURL=Logo.css.map */

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.64">
+        <g id="Document-management-drive-List" transform="translate(-278.000000, -37.000000)" fill="#000000">
+            <path d="M280.2,45 C280.2,42.0219 282.6219,39.6 285.6,39.6 C288.5781,39.6 291,42.0219 291,45 C291,47.9781 288.5781,50.4 285.6,50.4 C282.6219,50.4 280.2,47.9781 280.2,45 M294.3363,52.4637 L291.2808,49.4073 C292.2285,48.1887 292.8,46.6614 292.8,45 C292.8,41.0301 289.5699,37.8 285.6,37.8 C281.6301,37.8 278.4,41.0301 278.4,45 C278.4,48.9699 281.6301,52.2 285.6,52.2 C287.2614,52.2 288.7887,51.6285 290.0073,50.6808 L293.0637,53.7363 C293.2392,53.9118 293.4696,54 293.7,54 C293.9304,54 294.1608,53.9118 294.3363,53.7363 C294.6882,53.3844 294.6882,52.8156 294.3363,52.4637" id="Search"></path>
+        </g>
+    </g>
+</svg>

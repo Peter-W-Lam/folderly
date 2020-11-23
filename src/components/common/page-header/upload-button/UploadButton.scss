@@ -1,0 +1,20 @@
+.UploadButton {
+    width: 144px;
+    height: 41px;
+    border-radius: 16px;
+    background-color: #4339f2;
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 18px;
+    padding-right: 40px;
+    background-image: url('../../../../assets/misc/Plus.svg');
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.12s box-shadow ease-in-out;
+
+    &:focus, &:active {
+        box-shadow: 0 0 0 3px rgba(67,57,242,0.50);
+    }
+}

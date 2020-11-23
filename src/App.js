@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Sidebar from 'components/sidebar/Sidebar';
+import HomePage from 'components/pages/HomePage';
+import {FileGridProvider} from 'context/FileGridContext'
+import {FilteredGridProvider} from 'context/FilteredGridContext'
+import {StatusContextProvider} from 'context/StatusContext'
+import {useContext} from 'react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FilteredGridProvider>
+        <FileGridProvider>
+          <StatusContextProvider>
+            <Sidebar />
+            <HomePage />
+          </StatusContextProvider>
+        </FileGridProvider>
+      </FilteredGridProvider>
     </div>
   );
 }

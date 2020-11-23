@@ -1,0 +1,23 @@
+.SharedBlock {
+  margin-left: 40px;
+}
+
+.SharedBlock .Title {
+  margin-bottom: 0;
+}
+
+.SharedBlock .profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -4px;
+  margin-top: 0;
+}
+
+.SharedBlock .profiles .Profile {
+  margin: 4px;
+}
+/*# sourceMappingURL=SharedBlock.css.map */

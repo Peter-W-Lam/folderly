@@ -1,0 +1,58 @@
+.LinkTitle {
+  margin: 0 40px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.LinkTitle .Title {
+  -webkit-transition: 0.1s all ease-in;
+  transition: 0.1s all ease-in;
+  margin: 0;
+}
+
+.LinkTitle:hover h4 {
+  opacity: 1;
+}
+
+.LinkTitle.selected h4 {
+  opacity: 1;
+}
+
+.LinkTitle .alertNum {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.LinkTitle .alertNum.red {
+  color: #ff3a29;
+}
+
+.LinkTitle .alertNum.yellow {
+  color: #ffb200;
+}
+
+.LinkTitle .alertNum.purple {
+  color: #4339f2;
+}
+
+.LinkTitle .alertNum.green {
+  color: #007b42;
+}
+
+.LinkTitle:focus-visible {
+  -webkit-box-shadow: 0 0 0 2px rgba(67, 57, 242, 0.4);
+          box-shadow: 0 0 0 2px rgba(67, 57, 242, 0.4);
+}
+/*# sourceMappingURL=LinkTitle.css.map */

@@ -1,0 +1,112 @@
+.Tile {
+    border-radius: 12px;
+    border: solid 1px #dddddd;
+    background-color: #ffffff;
+    transition: 0.1s ease-in-out all; 
+
+
+    &.selected {
+        border: 1px solid transparent;
+        background-color: rgba(67, 57, 242, 0.1);
+    }
+
+    &.grid {
+        width: 204px;
+        height: 160px;
+        padding: 15px 30.8px 10px 20.2px;
+        
+        .icon.folder {
+            img {
+                width: 37px;
+            }
+        }
+
+        .icon.file {
+            img {
+                width: 27px;
+            }
+        }
+
+        h3 {
+            opacity: 0.8;
+            font-weight: normal;
+            color: #000000;
+            margin: 18px 0 9px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 220px;
+            text-overflow: ellipsis;
+            &.lg {
+                font-size: 20px;
+            }
+        }
+
+        
+
+        p {
+            margin: 9px 0;
+            opacity: 0.4;
+            font-size: 16px;
+            font-weight: normal;
+            color: #000000;
+        }
+    }
+
+    &.list {
+        width: 95%;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+
+        .folder-and-title {
+            margin-left: 15px;
+            display: flex;
+            align-items: center;
+
+            h3 {
+                &.lg {
+                    margin-left: 10px;
+                }
+
+                &.normal {
+                    margin-left: 18px;
+                }
+            }
+        }
+        .icon.folder {
+            img {
+                width: 30px;
+            }
+        }
+
+        .icon.file {
+            img {
+                width: 22px;
+            }
+        }
+
+        h3 {
+            opacity: 0.8;
+            font-weight: normal;
+            color: #000000;
+            font-size: 15px;
+
+            white-space: nowrap;
+            overflow: hidden;
+            width: 225px;
+            text-overflow: ellipsis;
+        }
+
+        p {
+            margin: 9px 0;
+            opacity: 0.4;
+            font-size: 15px;
+            font-weight: normal;
+            color: #000000;
+        }
+    }
+
+    
+
+}

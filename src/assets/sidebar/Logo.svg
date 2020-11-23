@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="42px" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(-20.000000, -32.000000)" fill="#4339F2">
+            <g id="Logo" transform="translate(20.000000, 32.500000)">
+                <polygon id="Path" points="10.5408451 4.00305767e-15 0.845070423 8.58028169 29.1661972 12.2084507 39.4535211 3.21126761"></polygon>
+                <path d="M10.3830986,0.253521127 L10.5408451,0.123943662 L10.5408451,0.276056338 L10.3887324,0.276056338 L10.3830986,0.253521127 Z M10.4507042,10.5859155 L10.3042254,28.6704225 L-2.46188046e-13,37.6507042 L0.709859155,9.34084507 L10.4507042,10.5859155 Z" id="Shape"></path>
+                <polygon id="Path" opacity="0.24" points="29.3859155 41.4028169 39.0816901 32.8225352 10.7661972 29.1943662 0.467605634 38.1859155"></polygon>
+                <path d="M29.543662,41.1267606 L29.3859155,41.256338 L29.3859155,41.1267606 L29.543662,41.1267606 Z M29.4704225,30.8169014 L29.6225352,12.7323944 L39.9267606,3.75211268 L39.2169014,32.0619718 L29.4704225,30.8169014 Z" id="Shape" opacity="0.24"></path>
+            </g>
+        </g>
+    </g>
+</svg>

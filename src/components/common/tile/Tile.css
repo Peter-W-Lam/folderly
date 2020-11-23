@@ -1,0 +1,107 @@
+.Tile {
+  border-radius: 12px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  -webkit-transition: 0.1s ease-in-out all;
+  transition: 0.1s ease-in-out all;
+}
+
+.Tile.selected {
+  border: 1px solid transparent;
+  background-color: rgba(67, 57, 242, 0.1);
+}
+
+.Tile.grid {
+  width: 204px;
+  height: 160px;
+  padding: 15px 30.8px 10px 20.2px;
+}
+
+.Tile.grid .icon.folder img {
+  width: 37px;
+}
+
+.Tile.grid .icon.file img {
+  width: 27px;
+}
+
+.Tile.grid h3 {
+  opacity: 0.8;
+  font-weight: normal;
+  color: #000000;
+  margin: 18px 0 9px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 220px;
+  text-overflow: ellipsis;
+}
+
+.Tile.grid h3.lg {
+  font-size: 20px;
+}
+
+.Tile.grid p {
+  margin: 9px 0;
+  opacity: 0.4;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.Tile.list {
+  width: 95%;
+  height: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Tile.list .folder-and-title {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Tile.list .folder-and-title h3.lg {
+  margin-left: 10px;
+}
+
+.Tile.list .folder-and-title h3.normal {
+  margin-left: 18px;
+}
+
+.Tile.list .icon.folder img {
+  width: 30px;
+}
+
+.Tile.list .icon.file img {
+  width: 22px;
+}
+
+.Tile.list h3 {
+  opacity: 0.8;
+  font-weight: normal;
+  color: #000000;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 225px;
+  text-overflow: ellipsis;
+}
+
+.Tile.list p {
+  margin: 9px 0;
+  opacity: 0.4;
+  font-size: 15px;
+  font-weight: normal;
+  color: #000000;
+}
+/*# sourceMappingURL=Tile.css.map */

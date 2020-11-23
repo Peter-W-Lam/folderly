@@ -1,0 +1,16 @@
+.ProfilesListSm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ProfilesListSm .Profile {
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.ProfilesListSm .Profile img {
+  width: 32px;
+}
+/*# sourceMappingURL=ProfilesListSm.css.map */

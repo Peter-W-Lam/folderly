@@ -1,0 +1,55 @@
+.LinkTitle {
+    margin: 0 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+    .Title {
+        transition: 0.1s all ease-in;
+        margin: 0;
+    }
+
+    &:hover h4 {
+        opacity: 1;
+    }
+
+    &.selected {
+        h4 {
+            opacity: 1;
+        }
+    }
+
+    .alertNum {
+        font-size: 14px;
+        margin-left: 20px;
+
+        &.red {
+            color: #ff3a29;
+        }
+
+        &.yellow {
+            color: #ffb200;
+        }
+
+        &.purple {
+            color: #4339f2;
+        }
+
+        &.green {
+            color: #007b42;
+        }
+    }
+
+    &:focus-visible  {
+        box-shadow: 0 0 0 2px rgba(67,57,242,0.40);
+    }
+
+    
+}

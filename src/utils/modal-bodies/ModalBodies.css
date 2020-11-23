@@ -1,0 +1,184 @@
+.UploadModalBody {
+  text-align: center;
+}
+
+.UploadModalBody h3 {
+  font-size: 23px;
+}
+
+.UploadModalBody .upload-box {
+  border: 1px dashed #b9b9b9;
+  border-radius: 5px;
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  color: #b9b9b9;
+}
+
+.ViewModalBody {
+  text-align: center;
+}
+
+.ViewModalBody h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.ViewModalBody .time {
+  margin-top: 3px;
+  margin-bottom: 0;
+  color: gray;
+  font-size: 18px;
+}
+
+.ViewModalBody .status {
+  margin: 0 0 20px 0;
+  color: gray;
+  font-size: 18px;
+}
+
+.ViewModalBody .shared-list {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.ViewModalBody .shared-list h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: gray;
+  padding: 5px 10px;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px 0;
+}
+
+.ViewModalBody .shared-list .user-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 15px;
+  border-top: 1px solid lightgray;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ViewModalBody .shared-list .user-list-item:first-of-type {
+  border-top: none;
+}
+
+.ViewModalBody .shared-list .user-list-item .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewModalBody .shared-list .user-list-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ViewModalBody .shared-list .user-list-item p {
+  margin-left: 20px;
+  font-size: 1.1em;
+  color: gray;
+}
+
+.ViewModalBody .shared-list .user-list-item button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: indianred;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ViewModalBody .shared-list .user-list-item button:hover {
+  background-color: #e7e7e7;
+}
+
+.ViewModalBody .shared-list .user-list-item button:focus-visible {
+  border: 2px solid indianred;
+}
+
+.EditModalBody form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.EditModalBody form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 18px;
+  color: gray;
+}
+
+.EditModalBody form input {
+  border: none;
+  margin-top: 4px;
+  font-size: 18px;
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: gray;
+  background-color: #e7e7e7;
+  outline: none;
+}
+
+.EditModalBody form .submit-btn {
+  width: 144px;
+  height: 41px;
+  border-radius: 8px;
+  background-color: #4339f2;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 15px 0 5px 0;
+}
+/*# sourceMappingURL=ModalBodies.css.map */
